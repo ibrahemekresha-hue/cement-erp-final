@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
 
-// تجنب أخطاء البناء في Next.js
 export const dynamic = 'force-dynamic';
 
 export async function GET() {
